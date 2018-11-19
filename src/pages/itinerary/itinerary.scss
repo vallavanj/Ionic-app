@@ -1,6 +1,6 @@
-page-home {
+page-itinerary {
 
-	h3.title{
+h3.title{
 		text-align:center;
 		text-transform:uppercase;
 		font-weight:100;
@@ -15,7 +15,7 @@ page-home {
 	    border-bottom: 1px solid #ccc;
 	    box-shadow: 2px 2px 2px 2px #ccc;
 	    padding: 0px 50px;
-	    margin:0 auto;
+	    margin:1px auto;
 	 }
 		
 	.img_header { 
@@ -39,21 +39,15 @@ page-home {
 	    font-size: 12px;
 	    padding: 11px 0px;
 	    }
-	    .section2 {
-	    background:#ececec;
-	    }
-	    .sec2_content {
-	    background-image: url("assets/imgs/logo.png");
-	    }
-	    .img_sec2_cen{
-	    height:300px;
-	    } 
-	    .set_image_top {
-			position: absolute;
-			padding: 78px 71px;
-	    }
-	    .set_image_top img {
-	    width:260px;
-	    }
+	 .avt_img {
+    width: 100px !important;
+    height: 100px !important;
+	}
+	.ion_list_view{
+	border-bottom:1px solid #ccc;
+	}
+	.a_red_more{
+	 text-decoration: none;
+	}
 
 }

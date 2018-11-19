@@ -1,17 +1,42 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <ion-navbar color="color1">
+    <ion-title><h3 class="title">Welcome</h3></ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+  <ion-grid class="content_top_title">
+    <ion-row class="content_top_title_row">
+      <ion-col col-3><img src="assets/imgs/logo.png" class="img_header"></ion-col>
+      <ion-col col-4>
+          <h1 class="logo_text">
+              <span class="let1">C</span><span class="let2">H</span><span class="let3">W</span>
+            </h1>
+        </ion-col>
+      <ion-col col-4>
+          <h1 class="logo_full_text">
+              <span class="let1">Children</span><br><span class="let2">Healthcare</span><br><span class="let3">Women</span>
+            </h1>
+      </ion-col>
+    </ion-row>  
+  </ion-grid>
+<ion-grid class="section2">
+  <h4 style="padding:0px 5px;color:#71135e">Welcome to the CHW Centennial Trip October 16-26,2017</h4>
+  <div class="set_image_top">
+     <img src="assets/imgs/celebratio3x.png"  class=""/> 
+  </div>
+  <img src="assets/imgs/celebration-3x.png"  class="img_sec2_cen"/> 
+  <ion-row>
+     <ion-col col-8><h5>Share your Exiperenece in throughout the trip #creation</h5></ion-col>
+     <ion-col col-3>
+      <a href="#" (click)="facebookShare(i)">
+        <ion-icon name="logo-facebook"  style="font-size: 68px; padding: 0px 40px; color:#4267b2;">
+      </ion-icon>
+    </a>
+
+
+     </ion-col>
+  </ion-row>
+</ion-grid>
+
 </ion-content>
