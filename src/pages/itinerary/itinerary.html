@@ -9,11 +9,7 @@
   <ion-navbar color="color1">
     <ion-title><h3 class="title">itinerary</h3></ion-title>
   </ion-navbar>
-</ion-header>
-
-
-<ion-content>
-	<ion-grid class="content_top_title">
+  <ion-grid class="content_top_title">
     <ion-row class="content_top_title_row">
       <ion-col col-3><img src="assets/imgs/logo.png" class="img_header"></ion-col>
       <ion-col col-4>
@@ -28,10 +24,15 @@
       </ion-col>
     </ion-row>  
   </ion-grid>
+</ion-header>
+
+
+<ion-content>
+	
 	<ion-list class="ion_list_view" >
 		<ion-item *ngFor = 'let listview of itenarylist'>
 		      <ion-avatar item-start>
-		        <img src="assets/imgs/royalbeachDetail@3x.png" class="avt_img">
+		        <img src="{{ listview.url }}" class="avt_img">
 		      </ion-avatar>
 		      <h2 class="let3">{{ listview.day1 }}</h2>
 		      <h3 class="let2">{{ listview.date_duration }}</h3>

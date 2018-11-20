@@ -1,0 +1,321 @@
+[{
+		"ID": "1",
+		"date_duration": "Monday, October 16,2017",
+		"image": "assets/imgs/Israel@3x.png",
+		"Title": "Welcome to Israel! ",
+		"sub_title": "Arrival, Registration, & Kick-Off of the Centennial Trip Celebrations! ",
+		"sub_content": [
+				{
+			"bullet_data": "Arrival at Ben Gurion Airport  Assistance provided by an Ayelet Tours Representative"
+				},
+				{
+					"bullet_data": "Transfer to The Royal Beach Hotel in Tel Aviv for Check-In  Check-In to The Royal Beach Hotel, Tel Aviv, rest and freshen up"
+				},
+				{
+					"bullet_data": "9:00 AM – 9:00 PM"
+				},
+				{
+					"bullet_data": "Registration for the Centennial Trip at our hotel, open from 9:00 AM until 9:00 PM"
+				},
+				{
+					"bullet_data": "7:00 PM – 10:00 PM"
+				}
+		
+		],
+		"second_title": "Welcome Dinner and Festive Program",
+		"sub_content1":[
+		{
+			"data":"Yam Hall, M Floor, Royal Beach Hotel, Tel Aviv"
+		},
+		{
+			"data":"Featuring guest speaker Dr. Esther Carmel-Hakim"
+		},
+		{
+			"data":"Entertainment by the Israeli Philharmonic Orchestra with CHW Hadassim Students"
+		}],
+		
+		"Third_title": "VIP Guests:",
+		"sub_content2":[
+		{
+			"data":"Esther Mor, President, World WIZO"
+		},
+		{
+			"data":"Professor Rivka Lazovsky, Chairperson, World WIZO"
+		},
+		{
+			"data":"Dr. Osnat Levtzion-Korach, Director-General, Assaf Harofeh Medical Center"
+		},
+		{
+			"data":"Benny Shay, Principal, CHW Netanya Technological High School"
+		},
+		{
+			"data":"Her Excellency Deborah Lyons, Canadian Ambassador to Israel"
+		},
+		{
+			"data":"The Honourable Ron Huldai, Mayor of Tel Aviv"
+		}
+		],
+		"Endtitle": "Overnight at the Royal Beach Hotel, Tel Aviv"
+	},
+	{
+		"ID": "2",
+		"date_duration": "Monday, October 17,2017",
+		"image": "assets/imgs/royalbeachDetail@3x.png",
+		"Title": "Breakfast at The Royal Beach Hotel, Tel Aviv ",
+		"sub_title": "Depart from the hotel and drive to Akko",
+		"sub_content": [
+				{
+					"bullet_data": "Visit the CHW Terry Schwarzfeld (Ottawa) Daycare in Akko"
+				},
+				{
+					"bullet_data": "Lunch at the renowned Chef's restaurant, Uri Buri (kosher style menu) Winner of Trip Advisor's 'Best Restaurant in the Middle East 2016' "
+				},
+				{
+					"bullet_data": "Visit the city of Akko, where we explore the Crusader-era fortifications, the Citadel, British Prison, and learn about the current challenges the city faces as a mixed Jewish/Arab city"
+				},
+				{
+					"bullet_data": "We drive south to Haifa and enjoy a gorgeous panoramic view from Mt. Carmel"
+				},
+				{
+					"bullet_data": "5:30 PM – 9:00 PM"
+				}
+		
+		],
+		"second_title": "Visit and Dinner at CHW Nahalal Youth Village ",
+		"sub_content1":[
+		{
+			"data":"Opening Night Event with Entertainment Program featuring Guy & Yahel "
+		}
+		],
+		
+		"Third_title": "VIP Guests:",
+		"sub_content2":[
+		{
+			"data":"Eyal Betser, Mayor of Emek Israel "
+		},
+		{
+			"data":"Lieutenant General Shaul Mofaz, Former Minister of Defense "
+		}
+		],
+		"Endtitle": "Overnight at the Royal Beach Hotel, Tel Aviv"
+	},
+	{
+		"ID": "3",
+		"date_duration": "Monday, October 18,2017",
+		"image": "assets/imgs/HadassahDetail@3x.png",
+		"Title": "Israeli Entrepreneurship & CHW Hadassim Children and Youth Village ",
+		"sub_title": "Breakfast at The Royal Beach Hotel, Tel Aviv ",
+		"sub_content": [
+				{
+				  "bullet_data":"9:00 AM"
+				},
+				{
+					"bullet_data": "Depart from hotel and drive to CHW Hadassim Children and Youth Village"
+				},
+				{
+					"bullet_data": "Visit CHW Hadassim Children and Youth Village and enjoy lunch at the facility"
+				},
+				{
+					"bullet_data": "Meet with successful entrepreneur and CHW Netanya Tech graduate, Adi Avital. Owner of Anita, a popular and quickly growing international chain of gelaterias. Adi, with his former teacher and mentor, Nurit Peled, will be on hand to meet with you to share his story, and some of his delicious gelato. "
+				},
+				{
+					"bullet_data": "Return to hotel and enjoy the remainder of the afternoon on your own"
+				},
+				{
+					"bullet_data": "Dinner on your own, Ayelet Host can assist you with reservations"
+				}
+		
+		],
+		"second_title": "",
+		"sub_content1":[
+		{
+			"data":""
+		}
+		],
+		
+		"Third_title": "",
+		"sub_content2":[
+		{
+			"data":""
+		},
+		{
+			"data":""
+		}
+		],
+		"Endtitle": "Overnight at the Royal Beach Hotel, Tel Aviv"
+	},
+	{
+		"ID": "4",
+		"date_duration": "Monday, October 19,2017",
+		"image": "assets/imgs/AssafharofehmedicalcenterDetail@3x.png",
+		"Title": "Assaf Harofeh Medical Center & Reception Hosted by CHW Netanya Technological High School ",
+		"sub_title": "Breakfast at The Royal Beach Hotel, Tel Aviv ",
+		"sub_content": [
+				{
+				  "bullet_data":"9:00 AM"
+				},
+				{
+					"bullet_data": "Depart from hotel and drive to Assaf Harofeh Medical Center"
+				},
+				{
+					"bullet_data": "Explore the work of physicians, nurses and staff at Assaf Harofeh Medical Center and enjoy lunch at the facility"
+				},
+				{
+					"bullet_data": "5:00 PM – 6:00 PM"
+				}
+		
+		],
+		"second_title": "Hors D'oeuvres and Dessert Reception ",
+		"sub_content1":[
+		{
+			"data":"Hosted by CHW Netanya Technological High School Patisserie Program at Royal Beach Hotel, Tel Aviv "
+		},
+		{
+			"data":"Yam Hall, M Floor, Royal Beach Hotel, Tel Aviv "
+		},
+		{
+			"data":"Dinner on your own, Ayelet Host can assist you with reservations"
+		}
+		],
+		
+		"Third_title": "",
+		"sub_content2":[
+		{
+			"data":""
+		},
+		{
+			"data":""
+		}
+		],
+		"Endtitle": "Overnight at the Royal Beach Hotel, Tel Aviv"
+	},
+	{
+		"ID": "5",
+		"date_duration": "Monday, October 20,2017",
+		"image": "assets/imgs/CramimDetail@3x.png",
+		"Title": "Time to Relax: Wine & Dine (Farewell to 5-Day Trip Participants) ",
+		"sub_title": "Breakfast at The Royal Beach Hotel, Tel Aviv ",
+		"sub_content": [
+				{
+				  "bullet_data":"9:00 AM"
+				},
+				{
+					"bullet_data": "Please leave your luggage outside your room for pick-up by 9:00 AM "
+				},
+				{
+				  "bullet_data":"10:00 AM"
+				},
+				{
+				  "bullet_data":"Check-Out of Royal Beach Hotel, Tel Aviv "
+				},
+				{
+				  "bullet_data":"Depart from hotel and drive to Barkan Winery "
+				},
+				{
+					"bullet_data": "Visit Barkan Winery for a tour of this award-winning modern winery. Enjoy wine tasting, followed by lunch at the winery "
+				},
+				{
+				  "bullet_data":"Check-In to Cramim Resort & Spa and orientation upon arrival"
+				},
+				{
+				  "bullet_data":"Time to relax before Shabbat  "
+				},
+				{
+				  "bullet_data":"5:15 PM "
+				}
+		
+		],
+		"second_title": "Optional Shabbat Candle Lighting with Debbie Eisenberg, National President",
+		"sub_content1":[
+		{
+			"data":"Meet at the entrance to the Geffen Room, Entrance Floor, Cramim Resort & Spa, Kiryat Anavim "
+		},
+		{
+			"data":"7:30 PM "
+		},
+		{
+			"data":"Shabbat Dinner together, in a private room "
+		},
+		{
+			"data":"Geffen Room, Entrance Floor, Cramim Resort & Spa, Kiryat Anavim"
+		}
+		],
+		
+		"Third_title": "",
+		"sub_content2":[
+		{
+			"data":""
+		},
+		{
+			"data":""
+		}
+		],
+		"Endtitle": "Overnight at the Cramim Resort & Spa, Kiryat Anavim  "
+	},
+	{
+		"ID": "6",
+		"date_duration": "Monday, October 21,2017",
+		"image": "assets/imgs/Shabbat@3x.png",
+		"Title": "Shabbat & Leisure Day ",
+		"sub_title": "Breakfast/Brunch at Cramim Resort & Spa, Kiryat Anavim, served until 12:00 PM ",
+		"sub_content": [
+				{
+				  "bullet_data":"Free morning for Shabbat services or to relax"
+				},
+				{
+					"bullet_data": "Optional Tours "
+				},
+				{
+				  "bullet_data":"Optional Tour 1: Walking Tour of Kibbutz Kiryat AnavimDeparture Time: 12:00 PM"
+				},
+				{
+				  "bullet_data":"Optional Tour 2: Visit to Har Adar, Al-Qastal, and Sataf Departure Time: 11:00 AM "
+				},
+				{
+				  "bullet_data":"Optional Tour 3: Visit Masada and the Dead Sea Departure Time: 8:00 AM  "
+				},
+				{
+					"bullet_data": "Optional Tour 4: Bike Tour through Judean Hills Departure Time: 8:30 AM "
+				},
+				{
+				  "bullet_data":"6:30 PM – 9:00 PM  "
+				},
+				{
+				  "bullet_data":"Time to relax before Shabbat  "
+				},
+				{
+				  "bullet_data":"5:15 PM "
+				}
+		
+		],
+		"second_title": "",
+		"sub_content1":[
+		{
+			"data":"Enjoy dinner at your leisure; from 6:30 PM-9:00 PM "
+		},
+		{
+			"data":"To make a reservation, please dial '0' from your room or go to the Reception Desk"
+		},
+		{
+			"data":"Main Dining Room, Lobby Floor, Cramim Resort & Spa, Kiryat Anavim  "
+		},
+		{
+			"data":""
+		}
+		],
+		
+		"Third_title": "",
+		"sub_content2":[
+		{
+			"data":""
+		},
+		{
+			"data":""
+		}
+		],
+		"Endtitle": "Overnight at the Cramim Resort & Spa, Kiryat Anavim   "
+	}
+
+
+
+]
