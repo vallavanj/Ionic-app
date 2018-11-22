@@ -1,11 +1,35 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      About
-    </ion-title>
+  <ion-navbar color="color1">
+    <ion-title><h3 class="title">speakers</h3></ion-title>
   </ion-navbar>
+  <ion-grid class="content_top_title">
+    <ion-row class="content_top_title_row">
+      <ion-col col-3><img src="assets/imgs/logo.png" class="img_header"></ion-col>
+      <ion-col col-4>
+          <h1 class="logo_text">
+              <span class="let1">C</span><span class="let2">H</span><span class="let3">W</span>
+            </h1>
+        </ion-col>
+      <ion-col col-4>
+          <h1 class="logo_full_text">
+              <span class="let1">Children</span><br><span class="let2">Healthcare</span><br><span class="let3">Women</span>
+            </h1>
+      </ion-col>
+    </ion-row>  
+  </ion-grid>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content>
+	<ion-list class="ion_list_view" >
+		<ion-item *ngFor = 'let speakers of speaker_list'>
+		      <ion-avatar item-start>
+		        <img src="{{ speakers.image }}" class="avt_img">
+		      </ion-avatar>
+		      <h2 class="let3">{{ speakers.name }}</h2>
+		      <h3 class="let2">{{ speakers.date_duration }}</h3>
+		      <p>{{ speakers.venue  }}</p>
+		       <a href="#"  class="a_red_more" (click)="speakerdetail($event)" id="{{ speakers.id }}">Read More</a>
+		 </ion-item>
+	</ion-list>
 </ion-content>
+

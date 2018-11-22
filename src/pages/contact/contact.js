@@ -9,16 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { HttpClient } from '@angular/common/http';
 var ContactPage = /** @class */ (function () {
-    function ContactPage(navCtrl) {
+    function ContactPage(navCtrl, http) {
         this.navCtrl = navCtrl;
+        this.http = http;
     }
+    ContactPage.prototype.getJSON = function () {
+        return this.http.get("http://localhost/chwapp/speaker.php?limit=0", { responseType: "text" });
+    };
     ContactPage = __decorate([
         Component({
             selector: 'page-contact',
             templateUrl: 'contact.html'
         }),
-        __metadata("design:paramtypes", [NavController])
+        __metadata("design:paramtypes", [NavController, HttpClient])
     ], ContactPage);
     return ContactPage;
 }());

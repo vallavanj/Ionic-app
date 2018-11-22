@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HttpClient } from '@angular/common/http';
 /**
  * Generated class for the ItineraryDetailPage page.
  *
@@ -16,24 +17,37 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 var ItineraryDetailPage = /** @class */ (function () {
-    function ItineraryDetailPage(navCtrl, navParams) {
+    function ItineraryDetailPage(navCtrl, navParams, http) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.http = http;
+        this.id = navParams.get('id');
     }
+    ItineraryDetailPage.prototype.getJSON = function () {
+        return this.http.get("assets/docs/itenarydetail.json", { responseType: "text" });
+    };
+    ItineraryDetailPage.prototype.ionViewDidLoad = function () {
+        // console.log(this.id);
+        var _this = this;
+        this.getJSON().subscribe(function (data) {
+            var id = _this.id;
+            var Json_data = JSON.parse(data);
+            var itneray_detail = [];
+            itneray_detail.push(Json_data[id]);
+            _this.get_data = itneray_detail;
+            console.log(itneray_detail);
+            //console.log(this.get_data['0']['sub_content'] );
+        });
+    };
     ItineraryDetailPage = __decorate([
         IonicPage(),
         Component({
             selector: 'page-itinerary-detail',
             templateUrl: 'itinerary-detail.html',
         }),
-        __metadata("design:paramtypes", [NavController, NavParams])
+        __metadata("design:paramtypes", [NavController, NavParams, HttpClient])
     ], ItineraryDetailPage);
     return ItineraryDetailPage;
 }());
 export { ItineraryDetailPage };
-var data2 = this.navParams.id;
-ionViewDidLoad();
-{
-    // console.log('ionViewDidLoad ItineraryDetailPage');
-}
 //# sourceMappingURL=itinerary-detail.js.map

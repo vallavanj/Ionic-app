@@ -9,6 +9,15 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { ItineraryPage } from '../pages/itinerary/itinerary';
 import { ItineraryDetailPage } from '../pages/itinerary-detail/itinerary-detail';
+import { SpeakerdetailPage } from '../pages/speakerdetail/speakerdetail';
+import { AboutprojectPage } from '../pages/aboutproject/aboutproject';
+import { AirporttransferPage } from '../pages/airporttransfer/airporttransfer';
+import { DresscodePage } from '../pages/dresscode/dresscode';
+import { EasytravelPage } from '../pages/easytravel/easytravel';
+import { ImportantpagePage } from '../pages/importantpage/importantpage';
+import { ShabbatcandlepagePage } from '../pages/shabbatcandlepage/shabbatcandlepage';
+import { TelavivpagePage } from '../pages/telavivpage/telavivpage';
+
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -22,6 +31,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ItineraryPage,
     ItineraryDetailPage,
+    SpeakerdetailPage,
+    AboutprojectPage,
+    AirporttransferPage,
+    ImportantpagePage,
+    DresscodePage,
+    ShabbatcandlepagePage,
+    EasytravelPage,
+    TelavivpagePage,
     TabsPage
   ],
   imports: [
@@ -37,6 +54,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ItineraryPage,
     ItineraryDetailPage,
+    SpeakerdetailPage,
+    AboutprojectPage,
+    AirporttransferPage,
+    ShabbatcandlepagePage,
+    ImportantpagePage,
+    TelavivpagePage,
+    DresscodePage,
+    EasytravelPage,
     TabsPage
   ],
   providers: [

@@ -9,16 +9,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { HttpClient } from '@angular/common/http';
+import { SpeakerdetailPage } from '../speakerdetail/speakerdetail';
 var AboutPage = /** @class */ (function () {
-    function AboutPage(navCtrl) {
+    function AboutPage(navCtrl, http) {
         this.navCtrl = navCtrl;
+        this.http = http;
     }
+    AboutPage.prototype.getJSON = function () {
+        return this.http.get("http://localhost/chwapp/speaker.php?limit=0");
+    };
+    AboutPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.getJSON().subscribe(function (data) {
+            _this.speaker_list = data['speaker_data'];
+        });
+    };
+    AboutPage.prototype.speakerdetail = function (event) {
+        var id = event.target.id;
+        this.navCtrl.push(SpeakerdetailPage, { id: id });
+    };
     AboutPage = __decorate([
         Component({
             selector: 'page-about',
             templateUrl: 'about.html'
         }),
-        __metadata("design:paramtypes", [NavController])
+        __metadata("design:paramtypes", [NavController, HttpClient])
     ], AboutPage);
     return AboutPage;
 }());

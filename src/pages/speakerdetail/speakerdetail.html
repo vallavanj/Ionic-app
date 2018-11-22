@@ -1,0 +1,22 @@
+<!--
+  Generated template for the SpeakerdetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="color1">
+    <ion-title><h3 class="title">speakers</h3></ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+	<ion-grid class="grid_img" *ngFor="let spekaerdetail of speaker_data">
+		<div style="text-align:center">
+			<img src="{{ spekaerdetail.image }}" class="avt_img">
+			<h2 class="let2">{{ spekaerdetail.name }}</h2>
+		</div>
+	 <p class="about_desc">{{ spekaerdetail.description }}</p>
+	</ion-grid>
+</ion-content>

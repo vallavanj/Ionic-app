@@ -1,17 +1,47 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Contact
-    </ion-title>
+  <ion-navbar color="color1">
+    <ion-title><h3 class="title">helpful info</h3></ion-title>
   </ion-navbar>
+  <ion-grid class="content_top_title">
+    <ion-row class="content_top_title_row">
+      <ion-col col-3><img src="assets/imgs/logo.png" class="img_header"></ion-col>
+      <ion-col col-4>
+          <h1 class="logo_text">
+              <span class="let1">C</span><span class="let2">H</span><span class="let3">W</span>
+            </h1>
+        </ion-col>
+      <ion-col col-4>
+          <h1 class="logo_full_text">
+              <span class="let1">Children</span><br><span class="let2">Healthcare</span><br><span class="let3">Women</span>
+            </h1>
+      </ion-col>
+    </ion-row>  
+  </ion-grid>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
+  <ion-list class="ion_list_view" >
+    <button class="button_custom" ion-item (click)="aboutproject(event)"   icon-start>
+      <ion-img width="40" height="35" src="assets/imgs/icon1.png"></ion-img><b class="menu_content">About CHW Projects</b>
+    </button>
+     <button class="button_custom" ion-item (click)="airporttransfer(event)"   icon-start>
+      <ion-img width="40" height="35" src="assets/imgs/icon2.png"></ion-img><b class="menu_content">Airport Transfers</b>
+    </button>
+     <button class="button_custom" ion-item (click)="dresscode(event)"   icon-start>
+      <ion-img width="40" height="35" src="assets/imgs/icon3.png"></ion-img><b class="menu_content">Dress Code</b>
+    </button>
+    <button class="button_custom" ion-item (click)="easytravel(event)"   icon-start>
+      <ion-img width="40" height="35" src="assets/imgs/icon4.png"></ion-img><b class="menu_content">Easy Travel Israel</b>
+    </button>
+    <button class="button_custom" ion-item (click)="important(event)"   icon-start>
+      <ion-img width="40" height="35" src="assets/imgs/icon5.png"></ion-img><b class="menu_content">Important Israel Travel Information</b>
+    </button>
+    <button class="button_custom" ion-item (click)="shabbatcandle(event)"   icon-start>
+      <ion-img width="40" height="35" src="assets/imgs/icon6.png"></ion-img><b class="menu_content">Shabbat Candle Lighting</b>
+    </button>
+    <button class="button_custom" ion-item (click)="telaviv(event)"   icon-start>
+      <ion-img width="40" height="35" src="assets/imgs/icon7.png"></ion-img><b class="menu_content">To do in Tel Aviv</b>
+    </button>
   </ion-list>
 </ion-content>
+
